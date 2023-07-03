@@ -1,0 +1,21 @@
+{
+    "Colony successfully deleted": "Colony successfully deleted",
+    "Colony successfully updated": "Colony successfully updated.",
+
+    "Edit Colony": "Edit Colony",
+    "Delete Colony": "Delete Colony",
+    "Save Changes": "Save Changes",
+    "Cancel": "Cancel",
+
+    "Colony Name": "Colony Name",
+    "Crop Type": "Crop Type",
+    "Season": "Season",
+    "Edit field boundaries if they've changed. Your changes will be applied to this season only": "Edit field boundaries if they've changed. Your changes will be applied to this season only.",
+    "Edit boundaries": "Edit boundaries",
+    "Finish editing": "Finish editing",
+
+    "Select date range": "Select date range",
+    "Select imagery": "Select imagery",
+    "Please select vegetation index and date range for imagery selection": "Please select vegetation index and date range for imagery selection.",
+    "Available images on date": "Available images on date"
+}

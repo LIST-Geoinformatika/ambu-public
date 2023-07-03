@@ -1,0 +1,21 @@
+{
+    "Colony successfully deleted": "Kolonija je uspješno izbrisana.",
+    "Colony successfully updated": "Kolonija je uspješno ažurirana.",
+
+    "Edit Colony": "Uredi koloniju",
+    "Delete Colony": "Izbriši koloniju",
+    "Save Changes": "Spremi promjene",
+    "Cancel": "Otkaži",
+
+    "Colony Name": "Ime kolonije",
+    "Crop Type": "Vrsta usjeva",
+    "Season": "Sezona",
+    "Edit field boundaries if they've changed. Your changes will be applied to this season only": "Uredite granice polja ako su se promijenile. Vaše promjene primjenit će se samo na ovoj sezoni.",
+    "Edit boundaries": "Uredi granice",
+    "Finish editing": "Završi uređivanje",
+
+    "Select date range": "Odaberite razdoblje",
+    "Select imagery": "Odaberite snimke",
+    "Please select vegetation index and date range for imagery selection": "Odaberite vegetacijski indeks i datumski raspon za odabir snimaka.",
+    "Available images on date": "Dostupne slike"
+}

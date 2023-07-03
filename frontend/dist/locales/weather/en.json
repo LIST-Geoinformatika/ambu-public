@@ -1,0 +1,22 @@
+{
+    "weather": "Weather",
+    "Current weather": "Current weather",
+    "fiveDayForecast": "5-day forecast",
+    "Today": "Today",
+    "Tomorrow": "Tomorrow",
+    "Wind": "Wind",
+    "Humidity": "Humidity",
+    "Temperature": "Temperature",
+    "Pressure": "Pressure",
+    "Precipitation": "Precipitation",
+    "Cloud cover": "Cloud cover",
+    "Mon": "Mon",
+    "Tue": "Tue",
+    "Wed": "Wed",
+    "Thu": "Thu",
+    "Fri": "Fri",
+    "Sat": "Sat",
+    "Sun": "Sun",
+    "weatherProvider": "Weather provided by: <1>yr.no</1>",
+    "Please choose colony to view weather forecast!": "Please choose colony to view weather forecast!"
+}

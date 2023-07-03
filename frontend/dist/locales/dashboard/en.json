@@ -1,0 +1,15 @@
+{
+    "Dashboard": "Dashboard",
+    "Select colony": "Select colony",
+    "No chart data for selected colony": "No chart data for selected colony.",
+    "MAX WEIGHT": "MAX WEIGHT",
+    "MAX TEMPERATURE": "MAX TEMPARATURE",
+    "MAX HUMIDITY": "MAX HUMIDITY",
+    "BATTERY STATUS": "BATTERY STATUS",
+
+    "COMMETN_CHART LABELS": "",
+    "Weight": "Weight",
+    "Battery status": "Battery status",
+    "Temperature": "Temperature",
+    "Humidity": "Humidity"
+}

@@ -1,0 +1,22 @@
+{
+    "weather": "Vrijeme",
+    "Current weather": "Trenutno vrijeme",
+    "fiveDayForecast": "Petodnevna prognoza",
+    "Today": "Danas",
+    "Tomorrow": "Sutra",
+    "Wind": "Vjetar",
+    "Humidity": "Vlažnost",
+    "Temperature": "Temperatura",
+    "Pressure": "Tlak",
+    "Precipitation": "Padaline",
+    "Cloud cover": "Naoblaka",
+    "Mon": "Pon",
+    "Tue": "Uto",
+    "Wed": "Sri",
+    "Thu": "Čet",
+    "Fri": "Pet",
+    "Sat": "Sub",
+    "Sun": "Ned",
+    "weatherProvider": "Pružatelj vremenske prognoze: <1>yr.no</1>",
+    "Please choose colony to view weather forecast!": "Molimo odaberite koloniju kako bi vidjeli vremensku prognozu!"
+}

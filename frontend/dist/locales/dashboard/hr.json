@@ -1,0 +1,15 @@
+{
+    "Dashboard": "Nadzorna ploča",
+    "Select colony": "Selektiraj koloniju",
+    "No chart data for selected colony": "Odabrana kolonija nema dostupnih podataka za prikazivanje grafikona.",
+    "MAX WEIGHT": "MAX TEŽINA",
+    "MAX TEMPERATURE": "MAX TEMPERATURA",
+    "MAX HUMIDITY": "MAX VLAŽNOST",
+    "BATTERY STATUS": "STANJE BATERIJE",
+
+    "COMMETN_CHART LABELS": "",
+    "Weight": "Težina",
+    "Battery status": "Status baterije",
+    "Temperature": "Temparatura",
+    "Humidity": "Vlažnost"
+}

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "nodes",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 8, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.500889393015552, 41.425056585941974 ] } },
+{ "type": "Feature", "properties": { "Id": 7, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.568024633625981, 41.307533168519967 ] } },
+{ "type": "Feature", "properties": { "Id": 6, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.682825216130414, 41.262975294492357 ] } },
+{ "type": "Feature", "properties": { "Id": 5, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.7886831932876, 41.271390265766435 ] } },
+{ "type": "Feature", "properties": { "Id": 4, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.923451434325251, 41.236853042911122 ] } },
+{ "type": "Feature", "properties": { "Id": 3, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.99941727746419, 41.238698573347392 ] } },
+{ "type": "Feature", "properties": { "Id": 2, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 19.974690662463701, 41.26096325851244 ] } },
+{ "type": "Feature", "properties": { "Id": 1, "Riv_Basin": "ERZ" }, "geometry": { "type": "Point", "coordinates": [ 20.000860849387735, 41.312099583803807 ] } }
+]
+}

@@ -1,0 +1,28 @@
+{
+    "delete": "Delete",
+    "Search": "Search",
+    "Notes": "Notes",
+    "deleteNoteHeading": "Delete note?",
+    "Edit note": "Edit note",
+    "View all": "View all",
+    "Delete note": "Delete note",
+    "Add note": "Add note",
+    "errorMessageForRequest": "Sorry, an error has occurred. Please try again.",
+    "noteSuccessfullyDeleted": "Note was deleted successfully!",
+    "Unnamed Note": "Unnamed Note",
+    "Unnamed": "Unnamed",
+
+    "_COMMENT_Notifications": "Notifications for adding note",
+    "Something went wrong!": "Something went wrong!",
+    "Missing note position!": "Missing note position!",
+    "Note was created successfully!": "Note was created successfully!",
+    "Note was edited successfully!": "Note was edited successfully!",
+
+    "_COMMENT_Downbar": "",
+    "Title": "Title",
+    "Text": "Text",
+    "Date": "Date",
+    "Add title here": "Add title here",
+    "Add caption here": "Add caption here",
+    "This colony does not contain any notes!": "This colony does not contain any notes!"
+}

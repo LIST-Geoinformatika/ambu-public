@@ -1,0 +1,28 @@
+{
+    "delete": "Izbriši",
+    "Search": "Traži",
+    "Notes": "Bilješke",
+    "deleteNoteHeading": "Izbrisati bilješku?",
+    "Edit note": "Uredi bilješku",
+    "View all": "Vidi sve",
+    "Delete note": "Izbriši bilješku",
+    "Add note": "Dodaj bilješku",
+    "errorMessageForRequest": "Žao nam je, došlo je do pogreške. Molimo pokušajte ponovno.",
+    "noteSuccessfullyDeleted": "Bilješka je uspješno obrisana!",
+    "Unnamed Note": "Bilješka bez naslova",
+    "Unnamed": "Bez naslova",
+
+    "_COMMENT_Notifications": "Notifications for adding note",
+    "Something went wrong!": "Došlo je do pogreške!",
+    "Missing note position!": "Nedostaje pozicija bilješke!",
+    "Note was created successfully!": "Bilješka je uspješno kreirana!",
+    "Note was edited successfully!": "Bilješka je uspješno uređena!",
+
+    "_COMMENT_Downbar": "",
+    "Title": "Naslov",
+    "Text": "Opis",
+    "Date": "Datum",
+    "Add title here": "Unesite naslov",
+    "Add caption here": "Unesite opis",
+    "This colony does not contain any notes!": "Ne postoje bilješke za ovu koloniju!"
+}

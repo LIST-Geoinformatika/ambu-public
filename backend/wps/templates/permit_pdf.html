@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% load i18n %}
+        <meta charset="utf-8">
+        <title>AMBU - Water permit</title>
+        <meta name="author" content="AMBU">
+
+        <style>
+
+            @page {
+                size: a4 portrait;
+                margin: 2cm;
+                margin-bottom: 2.5cm;
+                @frame footer {
+                    -pdf-frame-content: footer-content;
+                    bottom: 1cm;
+                    margin-left: 1cm;
+                    margin-right: 1cm;
+                    height: 1cm;
+                }
+            }
+
+            #footer-content {
+                padding-left: 15px;
+                padding-top: 15px;
+                text-align: center;
+            }
+
+            .logo {
+                height: 70px;
+                text-align: center;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .thumb {
+                width: 300px;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            span.box {
+                display: inline-block;
+                width: 150px;
+                height: 200px;
+                border: 1px solid #eee;  
+                border-radius: 3px;  
+                background-color: #1885CE ;
+                color: #eee;
+                font-size: small;
+            }
+
+            body {
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .points-table th {
+                padding: 6px 6px 6px 10px;
+                border: 1px solid #ddd;
+                color: #111111;
+                font-size: 12px;
+                font-weight: 300;
+            }
+       
+            .points-table td {
+                padding: 5px;
+                border: 1px solid #ddd;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <p style="text-align: center;">
+                <img src="https://pbs.twimg.com/profile_images/1394656134762483713/YBBPUgwU_400x400.jpg" style="text-align: center; height: 80px; width: 80px;">
+            </p>
+            <h2 style="color: #1885CE; text-align: center; font-size: 20px; padding-top:-10px;">
+                Water permit
+            </h2>
+            
+        </div>
+        <br><br>
+       
+        <div>
+            <table>
+                <tr>
+                    <td align="right">
+                        <p style="font-size: 16px; font-weight: 200; line-height: 18px;">
+                            <strong>AMBU</strong><br>
+                            <small>Bulevardi “Zhan D’Ark”, Prona nr. 33</small><br>
+                            <small>Shtëpia e Ushtarakëve, Tiranë</small><br>
+                            <small>info@ambu.gov.al</small>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <td align="left">
+                        <p style="color: #1885CE; font-size: 16px;">For: </p>
+                        <p style="font-size: 16px; font-weight: 200; line-height: 18px;">
+                            <small>Name: <strong>{{ submitted_by.full_name }}</strong></small><br>
+                            <small>Operator: {{ operator_name }}</small><br>
+                            <small>E-mail: {{ submitted_by.email }}</small><br>
+                            <small>Water use sector: {{ water_use_sector }}</small><br>
+                            <small>NACE: {{ nace_code }} {{ nace_description }}</small><br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <h2>UID: {{ permit_uid }}<br>Status: {{ status }}</h2>
+        </div>
+        <br>
+        <div>
+            <h2>Abstraction Points</h2>
+            <table class="points-table">
+                <thead>
+                    <tr>
+                        <th align="left" valign="top" style="width: 25%;">Identifier</th>
+                        <th align="left" valign="top">Subbasin</th>
+                        <th align="left" valign="top" style="width: 25%;">Watercourse</th>
+                        <th align="left" valign="top">WB code</th>
+                        <th align="left" valign="top">X</th>
+                        <th align="left" valign="top">Y</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ap in abstraction_points %}
+                    <tr>
+                        <td align="left">
+                            {{ ap.identifier }}
+                        </td>
+                        <td align="left">
+                            {{ ap.sub_basin }}
+                        </td>
+                        <td align="left">
+                            {{ watercourse.name }}
+                        </td>
+                        <td align="left">
+                            {{ watercourse.wb_code }}
+                        </td>
+                        <td align="left">
+                            {{ ap.coords.0 }}
+                        </td>
+                        <td align="left">
+                            {{ ap.coords.1 }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <h2>Discharge Points</h2>
+            <table class="points-table">
+                <thead>
+                    <tr>
+                        <th align="left" valign="top" style="width: 25%;">Identifier</th>
+                        <th align="left" valign="top">Subbasin</th>
+                        <th align="left" valign="top" style="width: 25%;">Watercourse</th>
+                        <th align="left" valign="top">WB code</th>
+                        <th align="left" valign="top">X</th>
+                        <th align="left" valign="top">Y</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for dp in discharge_points %}
+                    <tr>
+                        <td align="left">
+                            {{ dp.identifier }}
+                        </td>
+                        <td align="left">
+                            {{ dp.sub_basin }}
+                        </td>
+                        <td align="left">
+                            {{ watercourse.name }}
+                        </td>
+                        <td align="left">
+                            {{ watercourse.wb_code }}
+                        </td>
+                        <td align="left">
+                            {{ dp.coords.0 }}
+                        </td>
+                        <td align="left">
+                            {{ dp.coords.1 }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+        <div id="footer-content">
+            AMBU | http://www.ambu.gov.al
+        </div>
+    </body>
+</html>
